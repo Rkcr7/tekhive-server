@@ -53,7 +53,7 @@ public class WebSecurityConfig {
         registry.addMapping("/**")
                 .allowedOrigins("*")
                 .allowedHeaders("*")
-				.allowedOrigins("http://127.0.0.1:5173")
+				.allowedOrigins("https://tekhive.netlify.app")
 				.allowedMethods("*")
 				.allowCredentials(true);
     }// extends WebSecurityConfigurerAdapter {
