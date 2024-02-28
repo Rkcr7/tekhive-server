@@ -602,14 +602,14 @@ public class AuthController {
 		
 		
 	
-//		 @GetMapping("/user/{id}")
-//		    public ResponseEntity<User> getUserById(@PathVariable Long id) throws AttributeNotFoundException {
-//		        User user = userRepository.findById(id)
-//		                .orElseThrow(() -> new AttributeNotFoundException("User not found with id: " + id));
-//		        // Set the password field to null before returning the user
-//		        user.setPassword(null);
-//		        return new ResponseEntity<User>(user, HttpStatus.OK);
-//		    }
+		 @GetMapping("/user/{id}")
+		    public ResponseEntity<User> getUserById(@PathVariable Long id) throws AttributeNotFoundException {
+		        User user = userRepository.findById(id)
+		                .orElseThrow(() -> new AttributeNotFoundException("User not found with id: " + id));
+		        // Set the password field to null before returning the user
+		        user.setPassword(null);
+		        return new ResponseEntity<User>(user, HttpStatus.OK);
+		    }
 
 //	@GetMapping("/users")
 //	public ResponseEntity<List<User>> getAllUsers() {
