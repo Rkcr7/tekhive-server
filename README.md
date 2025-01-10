@@ -3,6 +3,8 @@
 ## Overview
 TekHive Server is the backend component of the TekHive application, a social networking platform designed for tech professionals. This Spring Boot-based server provides RESTful APIs for user management, authentication, real-time chat, and social networking features.
 
+## Related Repositories
+- Frontend: [TekHive](https://github.com/Rkcr7/tekhive-client)
 ## Technology Stack
 - **Framework**: Spring Boot
 - **Language**: Java
